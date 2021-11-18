@@ -6,7 +6,7 @@
                  <hr class="tm-hr-primary tm-mb-55">
                  <!-- Video player 1422x800 -->
         <video width="954" height="535" controls class="tm-mb-40">
-            <source src="video/wheat-field.mp4" type="video/mp4">							  
+            <source src="${contextPath}/video/wheat-field.mp4" type="video/mp4">							  
             Your browser does not support the video tag.
         </video>
     </div>
@@ -41,7 +41,7 @@
                 <hr class="tm-hr-primary tm-mb-45">
                 <div class="tm-comment tm-mb-45">
                     <figure class="tm-comment-figure">
-                        <img src="img/comment-1.jpg" alt="Image" class="mb-2 rounded-circle img-thumbnail">
+                        <img src="${contextPath}/img/comment-1.jpg" alt="Image" class="mb-2 rounded-circle img-thumbnail">
                         <figcaption class="tm-color-primary text-center">Mark Sonny</figcaption>
                     </figure>
                     <div>
@@ -61,7 +61,7 @@
                     <hr>
                     <div class="tm-comment">
                         <figure class="tm-comment-figure">
-                            <img src="img/comment-2.jpg" alt="Image" class="mb-2 rounded-circle img-thumbnail">
+                            <img src="${contextPath}/img/comment-2.jpg" alt="Image" class="mb-2 rounded-circle img-thumbnail">
                             <figcaption class="tm-color-primary text-center">Jewel Soft</figcaption>    
                         </figure>
                         <p>
@@ -106,19 +106,19 @@
             <h2 class="tm-mb-40 tm-post-title tm-color-primary">Related Posts</h2>
             <a href="#" class="d-block tm-mb-40">
                 <figure>
-                    <img src="img/img-02.jpg" alt="Image" class="mb-3 img-fluid">
+                    <img src="${contextPath}/img/img-02.jpg" alt="Image" class="mb-3 img-fluid">
                     <figcaption class="tm-color-primary">Duis mollis diam nec ex viverra scelerisque a sit</figcaption>
                 </figure>
             </a>
             <a href="#" class="d-block tm-mb-40">
                 <figure>
-                    <img src="img/img-05.jpg" alt="Image" class="mb-3 img-fluid">
+                    <img src="${contextPath}/img/img-05.jpg" alt="Image" class="mb-3 img-fluid">
                     <figcaption class="tm-color-primary">Integer quis lectus eget justo ullamcorper ullamcorper</figcaption>
                 </figure>
             </a>
             <a href="#" class="d-block tm-mb-40">
                 <figure>
-                    <img src="img/img-06.jpg" alt="Image" class="mb-3 img-fluid">
+                    <img src="${contextPath}/img/img-06.jpg" alt="Image" class="mb-3 img-fluid">
                     <figcaption class="tm-color-primary">Nam lobortis nunc sed faucibus commodo</figcaption>
                 </figure>
             </a>
