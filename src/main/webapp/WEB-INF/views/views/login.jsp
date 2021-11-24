@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -43,14 +43,16 @@
 	    <label for="email">Email Address</label>
 	    <div class="sec-2">
 	      <ion-icon name="mail-outline"></ion-icon>
-	      <input type="email" name="username" placeholder="admin@gmail.com" />
+  			<form:errors path="error.username" cssStyle="color:red; font-style:italic" ></form:errors><br />
+	      	<input type="email" name="username" placeholder="" />
 	    </div>
 	  </div>
 	  <div class="password">
 	    <label for="password">Password</label>
 	    <div class="sec-2">
 	      <ion-icon name="lock-closed-outline"></ion-icon>
-	      <input class="pas" type="password" name="password" placeholder="123" />
+	      	<form:errors path="error.password" cssStyle="color:red; font-style:italic" ></form:errors><br />
+	      	<input class="pas" type="password" name="password" placeholder="" />
 	      <ion-icon class="show-hide" name="eye-outline"></ion-icon>
 	    </div>
 	  </div>

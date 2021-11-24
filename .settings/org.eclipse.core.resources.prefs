@@ -1,4 +1,6 @@
 eclipse.preferences.version=1
+encoding//src/main/java/spring/models/User.java=UTF-8
+encoding//src/main/java/spring/validate/PasswordValidator.java=UTF-8
 encoding//src/main/webapp/WEB-INF/views/views/blogs/about.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/views/blogs/contact.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/views/blogs/index.jsp=UTF-8
